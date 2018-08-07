@@ -1,0 +1,8 @@
+@import '_config';
+
+// Gera os backgrounds utilizando a @extend .bg-NOME-DA-COR
+@each $name in map-keys($colors) {
+    .bg-#{$name} {
+        background: map-get($colors, $name);
+    }
+}

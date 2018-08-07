@@ -1,0 +1,37 @@
+{
+    "name": "Project",
+    "description": "Description project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    },
+    "author": "Victor Marques",
+    "license": "ISC",
+    "dependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "browser-sync": "^2.24.5",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^7.0.1",
+        "gulp-cached": "^1.1.1",
+        "gulp-clean-css": "^3.9.4",
+        "gulp-concat": "^2.6.1",
+        "gulp-file-include": "^2.0.1",
+        "gulp-flatten": "^0.4.0",
+        "gulp-group-css-media-queries": "^1.2.2",
+        "gulp-html-beautify": "^1.0.1",
+        "gulp-htmlmin": "^4.0.0",
+        "gulp-imagemin": "^4.1.0",
+        "gulp-plumber": "^1.2.0",
+        "gulp-postcss": "^7.0.1",
+        "gulp-sass": "^4.0.1",
+        "gulp-sass-lint": "^1.4.0",
+        "gulp-uglify": "^3.0.0",
+        "gulp-util": "^3.0.8",
+        "gulp-watch": "^5.0.0",
+        "jquery": "^3.3.1",
+        "merge2": "^1.2.2",
+        "postcss-cssnext": "^3.1.0",
+        "run-sequence": "^2.2.1"
+    }
+}

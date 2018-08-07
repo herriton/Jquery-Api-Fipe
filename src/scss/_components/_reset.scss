@@ -1,0 +1,21 @@
+// PADRÃO DE ELEMENTOS DO PROJETO
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html,
+body {
+    font-family: 'newjune-regular';
+}
+
+ul { list-style: none }
+
+a { text-decoration: none }
+
+textarea {
+    resize: none;
+}

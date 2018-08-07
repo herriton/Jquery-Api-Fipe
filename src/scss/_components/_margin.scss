@@ -1,0 +1,22 @@
+//margins
+@for $i from 1 through 20 {
+  .mg-all-#{$i * 5} { margin: ($i * 5px) }
+
+  .mg-both-#{$i * 5} {
+    margin-top: ($i * 5px);
+    margin-bottom: ($i * 5px);
+  }
+
+  .mg-sides-#{$i * 5} {
+    margin-left: ($i * 5px);
+    margin-right: ($i * 5px);
+  }
+
+  .mg-top-#{$i * 5} { margin-top: ($i * 5px) }
+
+  .mg-bottom-#{$i * 5} { margin-bottom: ($i * 5px) }
+
+  .mg-right-#{$i * 5} { margin-right: ($i * 5px) }
+
+  .mg-left-#{$i * 5} { margin-left: ($i * 5px) }
+}

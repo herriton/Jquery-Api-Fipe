@@ -1,0 +1,46 @@
+//===============================================
+//                                Paleta de Cores
+//===============================================
+/*
+    Exemplo de chamadas:
+
+    background-color: map-get($colors, 'nome-da-cor');
+    @extend %bg-nome-da-cor
+
+*/
+
+$colors: (
+    'primary': #e5173e,
+    'secundary': #0181e6,
+    'gray': #686868,
+    'gray-dark': #6c8791,
+    'gray-light': #d6d6d6,
+    'gray-extra-light': #eaeaea,
+    'white': #fff,
+    'black': #000,
+    'success': #24901b,
+    'warning': #e8c121
+);
+
+
+//===============================================
+//                                    Font Family
+//===============================================
+/*
+  Link da fonte no Google:
+  https://fonts.google.com/specimen/Montserrat
+
+
+  Exemplo de chamadas:
+
+  font-family: montserrat-estilo-desejado
+  @extend %montserrat-estilo-desejado
+
+*/
+
+$fonts: (
+  'bradesco': 'bradesco',
+  'newjune-medium': 'newjune-medium',
+  'newjune-regular': 'newjune-regular',
+  'newjune-bold': 'newjune-bold'
+);

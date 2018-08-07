@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'bradescoregular';
+    src: url('../Bradesco.ttf');
+}
+
+@font-face {
+  font-family: 'newjune-regular';
+  src: url('../NewJune-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'newjune-medium';
+    src: url('../NewJune-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'newjune-bold';
+    src: url('../NewJune-Bold.ttf');
+}

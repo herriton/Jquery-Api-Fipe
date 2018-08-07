@@ -1,0 +1,16 @@
+@each $font in map-keys($fonts) {
+    @font-face {
+        font-family: '#{$font}';
+        src: url('../fonts/#{$font}.eot'),
+        url('../fonts/#{$font}.eot#iefix') format('embedded-opentype'),
+        url('../fonts/#{$font}.ttf') format('truetype'),
+        url('../fonts/#{$font}.woff') format('woff'),
+        url('../fonts/#{$font}.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    //font's (class)
+    $the-font: map-get($fonts, $font);
+    .#{$the-font} { font-family: '#{$font}' }
+}

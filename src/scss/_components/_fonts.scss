@@ -1,0 +1,5 @@
+@each $font in map-keys($fonts) {
+    //font's
+    $the-font: map-get($fonts, $font);
+    %#{$the-font} { font-family: '#{$font}' }
+}

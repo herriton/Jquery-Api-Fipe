@@ -1,0 +1,75 @@
+.dados-veiculo-component {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    position: relative;
+
+    .dado-veiculo-form {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+
+        .form-select {
+            background: #fff;
+            width: 100%;
+            border-radius: 3px;
+            height: 45px;
+            padding: 10px;
+            border: solid 1px #ccc;
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+        }
+
+    }
+
+    .form-title {
+        color: #fff;
+        font-weight: normal;
+        text-align: center;
+        border-bottom: 1px solid #fff;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .resultado-veiculo-component {
+        position: absolute;
+        width: 638px;
+        height: 391px;
+        padding: 30px;
+        background-color: #000;
+        display: none;
+    }
+
+    .result-text {
+        color: #fff;
+        margin-bottom: 10px;
+        text-align: center;;
+    }
+
+    .form-button,
+    .new-search {
+        background: #395366;
+        padding: 15px;
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
+        border-radius: 3px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .spinner {
+        position: absolute;
+        width: 638px;
+        height: 391px;
+        background: rgba(0, 0, 0, .75);
+        text-align: center;
+        display: none;
+    }
+}

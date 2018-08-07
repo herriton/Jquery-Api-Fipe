@@ -1,0 +1,49 @@
+<div class="dados-veiculo-component">
+
+  <form class="dado-veiculo-form">
+    <h3 class="form-title">DADOS DO VEÍCULO</h3>
+    <select class="form-select type-vehicle" data-id="vehicle">
+      <option value="default" disabled selected>Selecione um tipo de veículo</option>
+      <option value="carros">Carros</option>
+      <option value="motos">Motos</option>
+      <option value="caminhoes">Caminhões</option>
+    </select>
+    <select class="form-select type-marca" data-id="marca" disabled>
+      <option value="default" disabled selected>Selecione uma Marca</option>
+    </select>
+    <select class="form-select type-modelo" data-id="modelo" disabled>
+      <option value="default" disabled selected>Modelo</option>
+    </select>
+    <select class="form-select type-ano" data-id="ano" disabled>
+      <option value="default" disabled selected>Ano</option>
+    </select>
+    <button class="form-button">CONSULTAR</button>
+  </form>
+
+  <div class="resultado-veiculo-component">
+    <h3 class="form-title">RESULTADO</h3>
+    <p class="result-text codigo">
+      Código Fipe: 073005-0
+    </p>
+    <p class="result-text veiculo">
+      Veículo: QQ 1.1/1.0 12V 69cv 5p
+    </p>
+    <p class="result-text marca">
+      Marca: CHERY
+    </p>
+    <p class="result-text ano">
+      Ano: 2014
+    </p>
+    <p class="result-text combustivel">
+      Combustível: Gasolina
+    </p>
+    <p class="result-text preco">
+      Preço: R$ 17.025,00
+    </p>
+    <button class="new-search">Nova Consulta</button>
+  </div>
+
+  <div class="spinner">
+      <img class="img-spinner" src="./img/spinner.gif" />
+  </div>
+</div>

@@ -1,0 +1,141 @@
+//===============================================
+//                         ALINHAMENTO DE COLUNAS
+//===============================================
+.flex {
+    &-column {
+        flex-direction: column;
+    }
+
+    &-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    &-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    &-wrap-reverse {
+        flex-wrap: wrap-reverse;
+    }
+
+    &-nowrap {
+        flex-wrap: nowrap;
+    }
+}
+
+
+//===============================================
+//                ALINHAMENTO DE BLOCO HORIZONTAL
+//===============================================
+.halign {
+    &-left {
+        justify-content: flex-start;
+    }
+
+    &-middle {
+        justify-content: center;
+    }
+
+    &-right {
+        justify-content: flex-end;
+    }
+
+    &-between {
+        justify-content: space-between;
+    }
+
+    &-around {
+        justify-content: space-around;
+    }
+}
+
+
+//===============================================
+//                  ALINHAMENTO DE BLOCO VERTICAL
+//===============================================
+.valign {
+    &-top {
+        align-items: flex-start;
+    }
+
+    &-middle {
+        align-items: center;
+    }
+
+    &-baseline {
+        align-items: baseline;
+    }
+
+    &-bottom {
+        align-items: flex-end;
+    }
+}
+
+//===============================================
+//                       ALINHAMENTO DE CONTAINER
+//===============================================
+.calign {
+    &-top {
+        align-content: flex-start;
+    }
+
+    &-middle {
+        align-content: center;
+    }
+
+    &-bottom {
+        align-content: flex-end;
+    }
+
+    &-around {
+        align-content: space-around;
+    }
+
+    &-between {
+        align-content: space-between;
+    }
+}
+
+
+//===============================================
+//                            ALINHAMENTO DE ÍTEM
+//===============================================
+.self {
+    &-top {
+        align-self: flex-start;
+    }
+
+    &-middle {
+        align-self: center;
+    }
+
+    &-bottom {
+        align-self: flex-end;
+    }
+
+    &-baseline {
+        align-self: baseline;
+    }
+}
+
+
+//===============================================
+//                           ALINHAMENTO DE TEXTO
+//===============================================
+.text {
+    &-left {
+        text-align: left;
+    }
+
+    &-center {
+        text-align: center;
+    }
+
+    &-right {
+        text-align: right;
+    }
+
+    &-justify {
+        text-align: justify;
+    }
+}

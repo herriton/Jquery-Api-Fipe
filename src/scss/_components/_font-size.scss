@@ -1,0 +1,8 @@
+// Gera o tamanho da fonte utilizando a @extend .font-TAMANHO-DA-FONTE(ex: 15 == 15px)
+@for $i from 10 through 100 {
+    @if($i % 2 == 0 OR $i < 20) {
+        .font-#{$i} {
+            font-size: $i * 1px;
+        }
+    }
+}

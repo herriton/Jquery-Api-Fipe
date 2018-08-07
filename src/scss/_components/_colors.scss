@@ -1,0 +1,6 @@
+// Gera as cores das fontes utilizando a @extend .color-NOME-DA-COR
+@each $name in map-keys($colors) {
+    .cl-#{$name} {
+        color: map-get($colors, $name);
+    }
+}

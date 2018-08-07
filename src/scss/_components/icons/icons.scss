@@ -1,0 +1,76 @@
+// sass-lint:disable no-important, no-vendor-prefixes
+[class^='icon-'],
+[class*=' icon-'],
+[class^='icon-']:before,
+[class*=' icon-']:before {
+  font-family: 'bradesco' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  //icon circle
+  &.icon-circle::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid;
+  }
+}
+
+//icons name
+@each $icon in map-keys($icons) {
+  .#{$icon}:before {
+    content: map-get($icons, $icon);
+  }
+}
+
+//icons colors
+@each $color in map-keys($colors) {
+  $the-color: map-get($colors, $color);
+
+  .icon-circle:before { border-color: $the-color }
+}
+
+//icons width
+.icon-smaller::before {
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+  padding: 3px;
+}
+
+.icon-small:before {
+  font-size: 26px;
+  height: 26px;
+  width: 26px;
+  padding: 3px;
+}
+
+.icon-medium:before {
+  font-size: 36px;
+  height: 36px;
+  width: 36px;
+  padding: 3px;
+}
+
+.icon-big:before {
+  font-size: 50px;
+  height: 50px;
+  width: 50px;
+  padding: 3px;
+}
+
+.icon-bigger:before {
+  font-size: 65px;
+  height: 65px;
+  width: 65px;
+  padding: 3px;
+}
